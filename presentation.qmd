@@ -1,0 +1,145 @@
+---
+title: "Vous n'aimeriez pas que quelqu'un lise par dessus votre épaule"
+subtitle: "RGPD et bibliothèques"
+background-image: "images/eye.gif" 
+background-size: "contain" 
+date: 12/04/2024
+author: 
+    - name: Damien Belvèze
+      email: damien.belveze@univ-rennes.fr
+      affiliation: 
+        - name: Université de Rennes
+          city: Rennes
+
+format: 
+    revealjs:
+        slide-number: c/t
+#        show-slide-number: # print
+#       show-notes: separate-page
+        embed-resources: true
+        transition: convex
+        from: markdown+emoji
+        theme: [dark, file.css]
+        reveal_plugins: [menu]
+        reveal_options: 
+          menu: 
+            numbers: true
+
+bibliography: references.bib
+csl: apa.csl
+---
+
+#  {background-color="#fef1da"}
+
+Le Réglement Général pour la Protection des Données s'applique depuis mai 2018 et remplace en France la précédente loi Informatique et Liberté de 1978.
+
+# {background-color="#fef1da"} 
+
+[Ce réglement garantit des droits aux personnes, et notamment aux usagers de nos bibliothèques]{.h3}
+
+# {background-color="#fef1da"}  
+
+[Minimiser la collecte de données personnelles]{.h3}
+
+::: columns
+::: {.column .incremental width="70%"}
+::::{.question}
+- est-ce que j'ai besoin de collecter le genre de la personne dans Koha?
+- est-ce que j'ai besoin de l'adresse personnelle en plus de l'adresse pro dans Koha ?
+- est-ce que je peux faire une base de données des agents avec leur numéro INSEE ?
+::::
+:::
+::: {.column width="30%"}
+![principe de minimisation](images/minimiser_collecte.png)
+:::
+:::
+
+# {background-color="#fef1da"} 
+
+[traiter de façon transparente des données soumises]{.h3}
+
+::: columns
+::: {.column .incremental width="70%"}
+::::{.question}
+- est-ce que l'usager de Koha sait à quoi précisément va servir ses données ?
+- est-ce que les patients du CHU savent que leurs données vont servir à des recherches non interventionnelles
+- comment obtenir le consentement d'un parent d'élève pour réaliser des entretiens dans un collège sur un sujet de recherche
+::::
+:::
+::: {.column width="30%"}
+![consentement, information](images/transparence.png)
+:::
+:::
+
+#  {background-color="#fef1da"}
+
+[garantir aux personnes l'exercice des droits prescrits dans le RGPD]{.h3}
+
+::: columns
+::: {.column .incremental width="70%"}
+::::{.question}
+- contact identifié pour avoir la connaissance des données conservées (dpo@univ-rennes.fr)
+- possibilité de supprimer les données conservées à la demande
+- possibilité de les exporter et de les réutiliser (portabilité)
+::::
+:::
+::: {.column width="30%"}
+![accès aux données](images/contact.png)
+:::
+:::
+
+
+# {background-color="#fef1da"}
+
+[Fixer des durées de conservation]{.h3}
+
+::: columns
+::: {.column .incremental width="70%"}
+::::{.question}
+- Dois-je supprimer les registres d'inscription des ateliers de l'année passée ? 
+- Dans le cadre d'un projet de recherche, combien de temps puis-je conserver des données personnelles ? 
+::::
+:::
+::: {.column width="30%"}
+![conservation des données](images/archives.png)
+:::
+:::
+
+# {background-color="#fef1da"}
+
+[sécuriser les données et identifier les risques]{.h3}
+
+::: columns
+::: {.column .incremental width="70%"}
+::::{.question}
+- Comment protéger les données dans Koha (chiffrement)
+- Quels sont les risques de fuite de données personnelles à travers les abonnements (docelec) 
+::::
+:::
+::: {.column width="30%"}
+![protection des données](images/coffre.png)
+:::
+:::
+
+# {background-color="#fef1da"}
+
+[amélioration continue]{.h3}
+
+::: columns
+::: {.column .incremental width="70%"}
+::::{.question}
+- Comment inscrire le RPGD dans nos actions (formations, abonnements, nouveaux services)
+- Nécessité de former les agents 
+::::
+:::
+::: {.column width="30%"}
+![RGPD by design](images/brevet.png)
+:::
+:::
+
+# Réferences
+
+Commission Nationale de l’Informatique et des Libertés. (2019, août). Les six grands principes du RGPD. CNIL. https://www.cnil.fr/fr/comprendre-le-rgpd/les-six-grands-principes-du-rgpd
+
+
+# {background-image="images/question.gif" background-size="contain"}
